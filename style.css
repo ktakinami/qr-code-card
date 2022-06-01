@@ -1,0 +1,69 @@
+/* No Responsive - Adjusted to the smallest smartphone width (Galaxy Fold: 280px) */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+/* main container */
+.container {
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* qr code image */
+img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* text content */
+.content {
+    margin: 0 auto;
+    width: 230px;
+}
+.title {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.text {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+/* footer */
+.footer {
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+    font-style: oblique;
+}
+
+.footer a:hover {
+    color: #fff;
+    transition: 0.5s;
+}
